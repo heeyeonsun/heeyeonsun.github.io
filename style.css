@@ -1,0 +1,18 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #2b6777;
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
