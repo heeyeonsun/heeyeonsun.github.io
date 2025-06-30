@@ -44,16 +44,3 @@ nav a:hover {
     text-decoration: underline;
 }
 
-a {
-    background-color: #7d4513;
-    color: white;
-    padding: 8px 12px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 5px;
-    display: inline-block;
-}
-
-a:hover {
-    background-color: #098b6d;
-}
