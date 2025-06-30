@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: #098b6d;
+    color: #044d30;
     font-size: 28px;
 }
 
@@ -24,7 +24,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #044d30;
+    color: #067649;
     margin: 0 10px;
     font-weight: bold;
 }
