@@ -1,18 +1,33 @@
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    box-sizing: border-box;
+    max-width: 1000px;              /* PC에서 폭 적당히 */
+    margin: 40px auto;              /* PC에서 여백 */
+    padding: 0 20px;                /* PC에서 좌우 여백 */
+    line-height: 1.6;               /* 텍스트 가독성 */
+    color: #333;                    /* 글씨 색 */
+    background-color: #f9f9f9;      /* 배경 색 */
+    box-sizing: border-box;         /* 패딩 포함 폭 계산 */
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 95%;             /* 모바일에서는 화면 거의 꽉 채움 */
+        margin: 20px auto;          /* 모바일 여백 */
+        padding: 0 10px;            /* 모바일 좌우 여백 */
+        /* 나머지 속성은 그대로 상속되어 유지됨 */
+    }
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 
 h1 {
     color: #067649;
