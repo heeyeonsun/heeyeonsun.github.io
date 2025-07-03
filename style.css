@@ -1,4 +1,5 @@
 body {
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
     max-width: 1000px;              /* PC에서 폭 적당히 */
     margin: 40px auto;              /* PC에서 여백 */
     padding: 0 20px;                /* PC에서 좌우 여백 */
