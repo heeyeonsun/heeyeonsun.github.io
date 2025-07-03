@@ -29,19 +29,64 @@
 
 <h2>Projects</h2>
 
-<h3>✏️Temperature and Hydroclimate Variability in Mid-Latitude Arid Central Asia During the Past 13,600 years: A Multi-Proxy Investigation of Issyk-Kul (Kyrgyzstan)</h3>
+<!-- <h3>✏️Temperature and Hydroclimate Variability in Mid-Latitude Arid Central Asia During the Past 13,600 years: A Multi-Proxy Investigation of Issyk-Kul (Kyrgyzstan)</h3>
 <ul>
     <li>NSF Award #: 2202902</li>
     <li>Role: Research Assistant</li>
-    <li>Tools: Python Data Analysis, Organic Biomarker, Biogeochemical Lab Procedure</li>
-</ul>
+</ul> -->
+
+<!-- Banner Image -->
+<div style="text-align: center; margin: 30px;">
+    <img src="HS_lab1.jpg" alt="Lab Activity" 
+         style="max-width: 80%; border-radius: 10px; cursor: pointer;" 
+         onclick="openModal()">
+</div>
+
+<!-- Modal Structure -->
+<div id="projectModal" style="
+    display: none; position: fixed; z-index: 999; left: 0; top: 0;
+    width: 100%; height: 100%; overflow: auto;
+    background-color: rgba(0,0,0,0.7);">
+    
+    <div style="
+        background-color: #fff; margin: 10% auto; padding: 20px; 
+        border: 1px solid #888; width: 90%; max-width: 500px; 
+        border-radius: 10px; position: relative;">
+
+        <span onclick="closeModal()" style="
+            color: #aaa; position: absolute; top: 10px; right: 20px; 
+            font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+
+        <h3>Analyzing Organic Biomarkers in the Biogeochem Lab</h3>
+        <p style="font-size: 16px; color: #555;">
+            Running HPLC to analyze GDGTs, n-alkanes, and alkenones from Lake Issyk-Kul sediment cores to reconstruct Holocene hydroclimate variability in Central Asia.
+        </p>
+    </div>
+</div>
+
+<!-- Modal Scripts -->
+<script>
+function openModal() {
+    document.getElementById('projectModal').style.display = 'block';
+}
+function closeModal() {
+    document.getElementById('projectModal').style.display = 'none';
+}
+// Close modal when clicking outside the modal box
+window.onclick = function(event) {
+    var modal = document.getElementById('projectModal');
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 
 <h3>✏️Collaborative Research: Using Multi-Proxy Paleo Data to Constrain Natural and Anthropogenic Hydrographic Variability in the Gulf of Maine System over the Last 250 Years</h3>
 <ul>
     <li>Period: Aug 2021 — May 2023</li>
     <li>NSF Award #: 2028197</li>
     <li>Role: Research Assistant</li>
-    <li>Tools: Python Data Analysis, Shell-Based Geochemical Approach</li>
 </ul>
 
 
