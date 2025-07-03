@@ -47,3 +47,8 @@ nav a:hover {
 a {
     text-decoration: none;
 }
+
+/* Hover overlay fade in */
+div[onclick]:hover div {
+    opacity: 1;
+}
